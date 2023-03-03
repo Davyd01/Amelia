@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #F5F5F5;
 }
+h1 {
+    font-size: 62px;
+}
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -30,9 +33,6 @@ body {
 
 .title-flex {
     display: flex;
-}
-h1 {
-    font-size: 62px;
 }
 .description {
     max-width: 540px;
@@ -97,4 +97,52 @@ h1 {
 }
 .commerce-about p {
     margin-top: 20px;
+}
+
+
+
+.how-we-work-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.how-we-work-text {
+    margin-left: 30px;
+}
+.how-we-work-text h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.how-we-work-text p {
+    font-size: 18px;
+}
+
+.our_bouquets{
+    margin-top: 120px;
+    text-align: center;
+}
+.our_bouquets h2{
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+.bouquets-flex {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.bouquet {
+    width: 350px;
+    background-color: #81A36B;
+    padding: 15px 15px 0px;
+}
+.bouquet p{
+    padding-top: 23px;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+
+.footer {
+    background-color: #81A36B;
 }
