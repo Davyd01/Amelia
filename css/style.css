@@ -3,13 +3,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #F5F5F5;
+    color:#161616;
+    font-size: 18px;
 }
 h1 {
     font-size: 62px;
 }
 .container {
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .header {
     background: #81A36B;
@@ -145,4 +148,34 @@ h1 {
 
 .footer {
     background-color: #81A36B;
+    margin-top: 120px;
+    padding: 60px 0;
+}
+.footer-contacts a{
+    display: inline-block;
+    text-decoration: none;
+    color: #161616;
+}
+.footer-contacts ul > li + li {
+    margin-top: 20px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-flex h3{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.footer-low {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.flex-social {
+    display: flex;
+    justify-content: space-between;
+    width: 113px;
 }
